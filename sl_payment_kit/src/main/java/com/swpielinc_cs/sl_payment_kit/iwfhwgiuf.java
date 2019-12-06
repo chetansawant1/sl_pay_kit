@@ -9,7 +9,6 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import androidx.appcompat.app.AppCompatActivity;
-import org.apache.http.util.EncodingUtils;
 
 public class iwfhwgiuf extends AppCompatActivity {
     private String mid,reqType,data;
