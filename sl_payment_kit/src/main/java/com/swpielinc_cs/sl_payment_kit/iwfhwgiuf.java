@@ -58,11 +58,11 @@ public class iwfhwgiuf extends AppCompatActivity {
 
     private void postData() {
         if (reqType.equals("slTrnReq")){
-            String postData = "mid="+mid+"&data="+data;
-            webView.postUrl("https://innovativetycoon.com/hdyvduydybdiusgfewibfgefuiweg.php", EncodingUtils.getBytes(postData, "BASE64"));
+
+            webView.loadUrl("https://innovativetycoon.com/hdyvduydybdiusgfewibfgefuiweg.php?mid="+mid+"&data="+data);
         }else if(reqType.equals("slMotoTrnReq")){
-            String postData = "mid="+mid+"&data="+data;
-            webView.postUrl("https://innovativetycoon.com/uydvcfiuygfiwbbfrgfireufuibrfuimoto.php", EncodingUtils.getBytes(postData, "BASE64"));
+
+            webView.loadUrl("https://innovativetycoon.com/uydvcfiuygfiwbbfrgfireufuibrfuimoto.php?mid="+mid+"&data="+data);
         }
     }
 }

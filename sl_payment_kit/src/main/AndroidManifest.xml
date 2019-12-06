@@ -1,2 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.swpielinc_cs.sl_payment_kit" />
+    package="com.swpielinc_cs.sl_payment_kit" >
+
+
+    <application>
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        <activity android:name=".iwfhwgiuf"></activity>
+    </application>
+
+
+</manifest>
