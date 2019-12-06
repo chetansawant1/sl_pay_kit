@@ -1,0 +1,2 @@
+include ':app', ':sl_payment_kit'
+rootProject.name='Sl_Lib'
