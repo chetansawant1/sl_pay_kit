@@ -19,7 +19,7 @@ Step 2. Add the dependency
 	}
 	
 	
-Some methods defined by following
-Method:
+Methods defined by following
+
 	1) sl_pay_cs.slTrnReq();
 	2) sl_pay_cs.slMotoTrnReq();
