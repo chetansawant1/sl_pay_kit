@@ -29,8 +29,6 @@ public class sl_pay_cs {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        Log.d("Add",plain_txt);
-        Log.d("Add",result1);
         activity.startActivity(new Intent(activity, iwfhwgiuf.class).putExtra("data",result1).putExtra("mid",mid).putExtra("reqType","slMotoTrnReq"));
     }
 }

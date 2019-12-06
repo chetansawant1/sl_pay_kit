@@ -46,7 +46,7 @@ public class iwfhwgiuf extends AppCompatActivity {
 
     }
 
-    private class Callback extends WebViewClient {  //HERE IS THE MAIN CHANGE.
+    private class Callback extends WebViewClient {
 
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -57,7 +57,6 @@ public class iwfhwgiuf extends AppCompatActivity {
 
     private void postData() {
         if (reqType.equals("slTrnReq")){
-
             webView.loadUrl("https://innovativetycoon.com/hdyvduydybdiusgfewibfgefuiweg.php?mid="+mid+"&data="+data);
         }else if(reqType.equals("slMotoTrnReq")){
 
